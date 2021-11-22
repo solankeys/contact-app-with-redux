@@ -1,0 +1,44 @@
+.contacts-page {
+  width: 90%;
+  margin: auto;
+}
+.input-add {
+  width: 65%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #000;
+  min-height: 30px;
+}
+.add-btn,
+.remove-btn {
+  outline: none;
+  height: 25px;
+  color: #fff;
+  padding: 10px 5;
+  border-radius: 5px;
+}
+.add-btn {
+  margin: 10px 0;
+  background: #5cb85c;
+  border: #5cb85c;
+  width: 40px;
+}
+.remove-btn {
+  color: #fff;
+  background: #d9534f;
+  border: #ce2923;
+  height: 25px;
+  width: 60px;
+  padding: 10px 5;
+  margin: 0 10px;
+}
+.items-list {
+  display: flex;
+  align-items: center;
+}
+.items-list > h3 {
+  border: 1px solid #ccc;
+  width: 60%;
+  min-height: 25px;
+  background-repeat: 5px;
+}
